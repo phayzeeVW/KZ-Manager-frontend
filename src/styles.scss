@@ -1,0 +1,25 @@
+@import "@angular/material/prebuilt-themes/purple-green.css";
+@import "primeng/resources/themes/bootstrap4-dark-blue/theme.css";
+@import "primeicons/primeicons.css";
+@import "flag-icons/css/flag-icons.min.css";
+
+/* CAN (MUST) BE REMOVED ! Sample Global style */
+
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+//html {
+//  font-size: 12px;
+//}
+
+.mat-icon, .mat-mdc-icon-button {
+  background-color: transparent;
+}
+
+

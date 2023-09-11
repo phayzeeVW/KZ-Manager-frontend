@@ -1,0 +1,13 @@
+{
+  "TITLE": "KZ | Manager de hărți",
+  "PAGES": {
+    "HOME": {
+      "TITLE": "Aplicatia merge !",
+      "GO_TO_DETAIL": "Catre detalii"
+    },
+    "DETAIL": {
+      "TITLE": "Pagina de detalii !",
+      "BACK_TO_HOME": "Inapoi acasa"
+    }
+  }
+}

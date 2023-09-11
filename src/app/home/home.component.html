@@ -1,0 +1,15 @@
+<div class="container">
+  <mat-toolbar class="menu-bar">
+    <span>{{'TITLE' | translate}}</span>
+    <span style="flex: 1 1 auto"></span>
+    <button (click)="setLanguage('en')" class="icon-display" mat-icon-button>
+      <span class="fi fi-gb"></span>
+    </button>
+    <button (click)="setLanguage('ro')" class="icon-display" mat-icon-button>
+      <span class="fi fi-ro"></span>
+    </button>
+  </mat-toolbar>
+
+  <a routerLink="/detail">{{ 'PAGES.HOME.GO_TO_DETAIL' | translate }}</a>
+
+</div>

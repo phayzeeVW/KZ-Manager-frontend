@@ -1,0 +1,22 @@
+:host {
+  ::ng-deep {
+    .container {
+      .menu-bar {
+        height: 50%;
+      }
+
+      .mat-mdc-icon-button:hover .mat-mdc-button-persistent-ripple::before {
+        transition: 0.3s;
+      }
+
+      .mat-mdc-icon-button .mat-mdc-button-persistent-ripple::before {
+        transition: 0.3s;
+      }
+
+      .icon-display {
+        display: flex;
+        transform: scale(0.75);
+      }
+    }
+  }
+}

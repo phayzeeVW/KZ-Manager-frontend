@@ -1,0 +1,17 @@
+<mat-toolbar class="window-bar">
+  <!--    <span class="window-bar-title">KZ Map-Manager</span>-->
+  <span style="flex: 1 1 auto"></span>
+  <div class="menubar-button-group">
+    <button (click)="minimize()" class="icon-display success" mat-icon-button>
+      <mat-icon>minimize</mat-icon>
+    </button>
+    <button (click)="maximize()" class="icon-display warn" mat-icon-button>
+      <mat-icon>crop_square</mat-icon>
+    </button>
+    <button (click)="close()" class="icon-display danger" mat-icon-button>
+      <mat-icon>close</mat-icon>
+    </button>
+  </div>
+</mat-toolbar>
+
+<router-outlet></router-outlet>
